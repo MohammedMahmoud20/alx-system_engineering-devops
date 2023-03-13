@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v "bin" /etc/root | wc -l
+grep -V "bin" /etc/root | wc -l
